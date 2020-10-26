@@ -1,3 +1,8 @@
+body {
+    padding: 12px;
+    background-color: #aeaeae;
+}
+
 .flex {
     display: flex;
 }
@@ -5,4 +10,35 @@
 .center {
     align-items: center;
     text-align: center;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.leftLinks button {
+    margin: 0.89rem 0rem 0rem 3rem;
+    max-width: 9rem;
+    /* padding: 0.5rem 0rem 0.5rem 0rem; */
+    border-radius: 1rem;
+    max-height: 1.8rem;
+    background-color: transparent;
+    border: solid 0.5px #fff;
+}
+
+.rightLinks a {
+    margin-left: 2rem;
+    color: #fff
+}
+
+nav {
+    /* background-color: #e5e5; */
+}
+
+header {
+    padding: 0 5rem 0 2rem;
 }
